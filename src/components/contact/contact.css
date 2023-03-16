@@ -74,5 +74,28 @@ input,textarea{
         margin-left: 8rem;
     } */
     
+@media screen and (max-width:1024px){
+    
+    .container.contact__container{
+        gap: 9rem;
+        justify-content: center;
+    }
+    .contact__options{
+        width: 13rem;
+    }
+     h5{
+        word-wrap: break-word;
+     }
+} 
+    
+@media screen and (max-width:600px){
+       .container.contact__container{
+         display:grid;
+         grid-template-columns: auto;
+         gap: 2rem;
+         justify-content: center;
+       }
+}
+    
 
 
